@@ -1,9 +1,9 @@
-  <widget id="museumtest" version="0.0.1">
-        <name>HelloWorld</name>
+  <widget id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+        <name>What's On at the National Museum of Ireland'</name>
         <description>
-          first app
+          This is an app for the National Museum of Ireland. It allows you to view information regarding the museum and also to see what events are on.
         </description>
-        <author email="rodwardle@hotmail.com"">
+        <author email="rodwardle@hotmail.com">
            Rodney
         </author>
         <content src="index.html" />

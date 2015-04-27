@@ -1,0 +1,185 @@
+       <!Doctype html>
+       <html>
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>jQuery Mobile: Theme Download</title>
+            <link rel="stylesheet" href="themes/protoype.min.css" />
+            
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+
+
+            <s<link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />
+            <link rel="stylesheet" href="jquery.mobile.datepicker.css" />
+            <link rel="stylesheet" href="jquery.mobile.datepicker.theme.css" />
+            <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+            <script src="external/jquery-ui/datepicker.js"></script>
+            <script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+            <script src="jquery.mobile.datepicker.js"></script>
+<script src="json.js"></script>
+            <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+
+
+
+            <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+            <script>
+                $(function(){
+                    $( ".date-input-css" ).datepicker();
+                })
+            </script>
+
+
+
+        <style>
+        #logo_image {
+          text-align: center;
+          margin:0 auto;
+
+        }
+
+         #h1 {
+          text-align: center;
+          margin:0 auto;
+
+        }
+        #p{
+            text-align: center;
+            margin:0 auto;
+            margin-top:20px;
+        }
+
+        </style>
+
+
+            </head>
+        <body>
+            <div data-role="page" data-theme="a">
+                <div data-role="header" >
+
+                    <div id="p"> <a href="tasks.html" rel="external"><img src="images/home_w.png"></a></div>
+
+                </div>
+
+
+        
+                <div data-role="content" data-theme="a"style="max-height: 100%;">
+               <a href="tasks.html" rel="external">home</a> > What's On
+<br />
+
+
+
+
+
+
+                    <style>
+                        .userform { padding:.8em 1.2em; }
+                        .userform h2 { color:dimgray; margin:0.3em 0 .8em 0; padding-bottom:.5em; border-bottom:1px solid rgba(0,0,0,.1); }
+                        .userform label { display:block; margin-top:1.2em; }
+                        .switch .ui-slider-switch { width: 6.5em !important }
+                        .ui-grid-a { margin-top:1em; padding-top:.8em;width:25em; margin-top:1.4em; border-top:1px solid rgba(0,0,0,.1); }
+                    </style>
+
+                    <div data-role="panel" data-position="right" data-position-fixed="false" data-display="overlay" id="add-form" data-theme="b">
+
+                        <form class="userform">
+                            <h2>Refine Results</h2>
+                            <label for="name">Key Word</label>
+                            <input type="text" name="name" id="name" value="" data-clear-btn="true" data-mini="true">
+
+                            <label for="start">Start Date</label>
+                            <input type="text" name="start" class="date-input-css">
+
+                            <label for="finish">Finish Date:</label>
+                            <input type="text" name="finish" class="date-input-css">
+
+                            <label for="select-native-5">Location</label>
+                            <select name="select-native-5" id="select-native-5" data-mini="true">
+                                <option value="adult">----Location----</option>
+                                <option value="country">Country Life</option>
+                                <option value="arch">Archaeology</option>
+                                <option value="natural">Natural History</option>
+                                <option value="decorative">Decorative Arts and History</option>
+                            </select>
+
+                            <label for="select-native-5">Format</label>
+                            <select name="select-native-5" id="select-native-5" data-mini="true">
+                                <option value="adult">----Format----</option>
+                                <option value="Permanent">Permanent Exhibition</option>
+                                <option value="Temporary">Temporary Exhibition</option>
+                                <option value="Projects">Projects</option>
+                                <option value="Competitions">Competitions</option>
+                            </select>
+                            <label for="select-native-5">Audience</label>
+                            <select name="select-native-5" id="select-native-5" data-mini="true">
+                                <option value="audience">----Audience----</option>
+                                <option value="adult">Adult</option>
+                                <option value="family">Family</option>
+                                <option value="all_ages">All Ages</option>
+                                <option value="4-6">4-6yrs</option>
+                                <option value=" 7yrs +">7yrs +</option>
+                                <option value="12yrs +">12yrs +</option>
+                                <option value="55yrs +">55yrs +</option>
+                                <option value="Primary">Primary</option>
+                                <option value="PostPrimary +">Post Primary</option>
+                                <option value="TransitionYear">Transition Year</option>
+
+
+                            </select>
+
+                            <div class="ui-grid-a">
+
+                                <div class="ui-block-a"><a href="#" data-rel="close" data-role="button" data-theme="b" data-mini="true">Search Again</a></div>
+                            </div>
+                        </form>
+
+                        <!-- panel content goes here -->
+                    </div><!-- /panel -->
+
+
+
+
+                
+                </div>
+
+        <div data-role="footer" data-position="fixed" style="background-color:white"data-theme="a"style>
+            <div class="yui3-cssreset">
+              <div id="h1"> <a href="#add-form" position="right"><img src="images/search.png"style="width:;height:100px;"/></a></div>
+                </div>
+                </div>
+                <ul data-role="listview" style="margin-top:40px;">
+                    <li><a href="List1.html" rel="external">
+                        <img src="images/GetAttachment.aspx.jpeg" />
+                        <h3>History On Rural Living</h3>
+                        <p>Permanent Exhibition</p>
+                    </a></li>
+                    <li><a href="List2.html" rel="external">
+                        <img src="images/GetAttachment-1.aspx.jpeg" />
+                        <h3>Pirates</h3>
+                        <p>Temporary Exhibition</p>
+                    </a></li>
+                    <li><a href="List3.html" rel="external">
+                        <img src="images/GetAttachment-2.aspx.jpeg" />
+                        <h3>Pictures of Flowers</h3>
+                        <p>Competition</p>
+                    </a></li>
+                    <li><a href="List4.html" rel="external">
+                        <img src="images/GetAttachment-3.aspx.jpeg" />
+                        <h3>Decorating Easters Eggs</h3>
+                        <p>Broken Bells</p>
+                    </a></li>
+                    <li><a href="List5.html" rel="external">
+                        <img src="images/GetAttachment-4.aspx.jpeg" />
+                        <h3>Prision in 1800s</h3>
+                        <p>Project</p>
+
+
+                </ul>
+                </div>
+
+
+
+
+            
+        </body>
+        </html>

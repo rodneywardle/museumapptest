@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
             <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
             <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
 
         <style>
         #logo_image {
@@ -19,8 +20,17 @@
          #h1 {
           text-align: center;
           margin:0 auto;
+             margin-top:50px;
 
         }
+            
+            #image{
+              text-align:center;
+              max-width: 100%;
+                margin-top:10px;
+                margin-bottom:10px;
+
+            }
 
 
         </style>
@@ -29,18 +39,27 @@
             </head>
         <body>
             <div data-role="page" data-theme="a">
-                <div data-role="header" data-position="fixed">
-        <h1><img src="images/mlogo.gif"></h1>
+                <div data-role="header" >
+        <div id="image"><img src="images/mlogo.gif"></div>
 
                 </div>
                 <div data-role="content" data-theme="a">
                <br />
                     <br />
+                    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="color:dimgray;"> Museum News: You can now access our new gallery by clicking <a href="gallery.html" rel="external">here.</a></marquee>
             
-                     <a href="museumchoice.html" data-role="button" style="color:grey" data-position="fixed" data-icon="info" rel="external">Our Museum</a>
-                     <a href="contact.html" rel="external"data-role="button"style="color:grey"data-position="fixed"data-icon="arrow-r">Contact Us</a>
-                     <a href="#" data-role="button"style="color:grey"data-position="fixed"data-icon="arrow-r">What's On</a>
-                     <a href="#" data-role="button"style="color:grey"data-position="fixed"data-icon="arrow-r">Group Visits</a>                                  <a href="#" data-role="button"style="color:grey"data-position="fixed"data-icon="delete">Exit Application</a>
+              <div id="h1">
+                   <a href="country.html" rel="external"><img src="images/info.png"style="height:10em;"/></a>
+                   <a href="contact.html"rel="external"><img src="images/telephone.png"style="height:10em;"/></a>
+                    <br />
+                    <a href="jsontest.html"rel="external"><img src="images/list.png"style="height:10em;"/></a>
+                  <a href="groupvisit2.html" rel="external"><img src="images/people.png"style="height:10em;"/></a>
+                  <br/>
+                    
+                    </div>
+                    
+                    <br /><br /><br /><br /><br /><br />  <br /><br /><br />
+
                 </div>
 
 

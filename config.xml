@@ -1,4 +1,10 @@
   <widget id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+     <icon src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="Favicon/favicon-32x32.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="Favicon/favicon-96x96.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="Favicon/favicon-16x16.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
         <name>What's On at the National Museum of Ireland'</name>
         <description>
           This is an app for the National Museum of Ireland. It allows you to view information regarding the museum and also to see what events are on.
@@ -9,3 +15,4 @@
         <content src="index.html" />
         <access origin="*" />
     </widget>
+

@@ -1,0 +1,335 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile: Theme Download</title>
+    <link rel="stylesheet" href="themes/protoype.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <script src="archwhat.js"></script>
+
+
+
+
+
+
+
+    <style>
+        #logo_image {
+            text-align: center;
+            margin:0 auto;
+
+        }
+
+        #header {
+            text-align: center;
+            margin:0 auto;
+            margin-top:50px;
+            color:grey;
+
+        }
+
+        #h1 {
+            text-align: center;
+            margin:0 auto;
+            margin-top:50px;
+
+        }
+
+        #image{
+            text-align:center;
+            max-width: 100%;
+            margin-top:10px;
+            margin-bottom:10px;
+
+        }
+        .ui-bar {
+            padding :5px 0px 5px 0px !important;
+            margin :5px 0px 5px 0px !important;
+        }
+
+        #black{
+           background-color: #003151;
+
+        }
+        #p{
+            text-align: center;
+            margin:0 auto;
+            margin-top:20px;
+        }
+
+        .ui-page .ui-header {
+            background:  #003151!important;
+        }
+        .ui-page .ui-panel {
+            background:  white!important;
+        }
+        .ui-page .ui-footer{
+            background:  white!important;
+            height:100px;
+
+        }
+
+        .ui-page .ui-button{
+            background:  grey !important;
+
+        }
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+<!--first page -->
+<!--first page -->
+<div data-role="page" id="info-page">
+    <div data-role="header" data-theme="b">
+
+        <div id="p"> <a href="tasks.html" rel="external"><img src="images/home_w.png"></a></div>
+    </div>
+    <div data-role="content">
+        <a href="tasks.html" rel="external">home</a> > What's On
+        <br />
+
+
+        <div class="userform" data-role="panel" data-position="left" data-position-fixed="false" data-display="overlay" id="location" >
+            <div id=""><h2 style="font-size: medium;">Museums</h2></div>
+            <a href="countrywhat.html" rel="external"><img src="images/Country%20Life_icon.jpg"style="margin-left:55px; height:120px;"></a><br />
+            <a href="archaeologywhat.html" rel="external">    <img src="images/Archaeology_icon.jpg"style="margin-left:55px; height:120px;"></a><br />
+            <a href="decorativewhat.html" rel="external"><img src="images/Dec%20Arts_History_icon.jpg"style="margin-left:55px; height:120px;"></a><br />
+            <a href="naturalwhat.html" rel="external"><img src="images/Natural%20History_icon.jpg"style="margin-left:55px; height:120px;"></a><br />
+
+            </div>
+        <a href="#location" data-role="button"data-icon="grid" >Our Museums</a>
+        <ul data-role="listview" id="prof-list" data-divider-theme="a" data-inset="true">
+            <li data-role="list-divider" data-theme="c" role="heading">Archaeology Events</li>
+        </ul>
+
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <div id="h1"> <a href="#add-form" position="right"><img src="images/search.png"style="height:50px;margin-bottom:10px;"/></a></div>
+
+    </div>
+
+
+    <style>
+        .userform { padding:2em .1em;width:250px; margin-right:40px;}
+        .userform h2 { color:dimgray; margin:0.3em 0 .8em 0; padding-bottom:.5em; border-bottom:1px solid rgba(0,0,0,.1); }
+        .userform label { display:block; margin-top:1.2em; }
+        .switch .ui-slider-switch { width: 6.5em !important }
+        .ui-grid-a { margin-top:1em; padding-top:.8em;width:25em; margin-top:1.4em; border-top:1px solid rgba(0,0,0,.1); }
+    </style>
+
+    <div data-role="panel" data-position="right" data-position-fixed="false" data-display="overlay" id="add-form" data-theme="b">
+
+        <form class="userform">
+            <h2 style="font-size: medium;">Refine Results</h2>
+            <label>Key Word</label>
+            <input type="text" name="Event" id="Event" value="" data-clear-btn="true" data-mini="true">
+
+
+
+
+            <label>Start Date</label>
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <select name="Day">
+                        <option>D</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                <div class="ui-block-b">
+                    <select name="Month">
+                        <option>M</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="ui-block-c">
+                    <select name="Year">
+                        <option>Y</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <label>Finish Date:</label>
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <select name="Day">
+                        <option>D</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                <div class="ui-block-b">
+                    <select name="Month">
+                        <option>M</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="ui-block-c">
+                    <select name="Year">
+                        <option>Y</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+            </div>
+            <label for="select-native-5">Location</label>
+            <select name="format" id="location" data-mini="true">
+                <option value="format">----Location----</option>
+                <option value="Decorative Arts and History">Decorative Arts and History</option>
+                <option value="Country Life">Country Life</option>
+                <option value="Natural History">Natural History</option>
+                <option value="Archaeology">Archaeology</option>
+            </select>
+
+            <label for="select-native-5">Format</label>
+            <select name="format" id="format" data-mini="true">
+                <option value="format">----Format----</option>
+                <option value="Permanent">Permanent Exhibition</option>
+                <option value="Temporary">Temporary Exhibition</option>
+                <option value="Projects">Projects</option>
+                <option value="Competitions">Competitions</option>
+            </select>
+            <label for="select-native-5">Audience</label>
+            <select name="select-native-5" id="select-native-5" data-mini="true">
+                <option value="audience">----Audience----</option>
+                <option value="adult">Adult</option>
+                <option value="family">Family</option>
+                <option value="all_ages">All Ages</option>
+                <option value="4-6">4-6yrs</option>
+                <option value="7yrs+">7yrs +</option>
+                <option value="12yrs+">12yrs +</option>
+                <option value="55yrs+">55yrs +</option>
+                <option value="Primary">Primary</option>
+                <option value="PostPrimary">Post Primary</option>
+                <option value="TransitionYear">Transition Year</option>
+
+
+            </select>
+
+            <div class="ui-grid-a">
+
+                <div class="ui-block-a"><a href="#" data-rel="close" data-role="button" data-theme="c" data-mini="true" style="margin-left:50px;">Search Again</a></div>
+
+            </div>
+        </form>
+
+        <!-- panel content goes here -->
+    </div><!-- /panel -->
+
+</div>
+<!--second page -->
+<div data-role="page" id="details-page">
+    <div data-role="header" data-theme="b">
+
+        <h1>Event Details</h1>
+
+    </div>
+    <br />
+    &nbsp;&nbsp;<a href="#info-page">Results</a> > Event Details
+
+    <div data-role="content"></div>
+
+
+    <a href="gallery.html" data-role="button"data-icon="grid" rel="external"> Our Gallery</a>
+    <a href="mailto:marketing@museum.ie?subject=Query about Event&body=-- Important: Please specify the event and museum --"data-role="button" data-icon="user">Email Us
+    </a>
+
+</div>
+</body>
+</html>

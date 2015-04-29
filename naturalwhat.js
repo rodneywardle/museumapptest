@@ -33,7 +33,7 @@ var info = [{
      "Event": "Shark",
     "Start Date": "23rd April 2015",
     "Finish Date": "24th April 2015",
-    "Time": "2-5pm,
+    "Time": "2-5pm",
     "Location": "Natural History",
     "Description": "Talking about sharks",
     "Booking Information": "No Booking",

@@ -33,10 +33,10 @@ var info = [{
      "Event": "Shark",
     "Start Date": "23rd April 2015",
     "Finish Date": "24th April 2015",
-    "Time": "See www.dublinzoo.ie",
+    "Time": "2-5pm,
     "Location": "Natural History",
-    "Description": "Join us at our stand at Dublin Zoo as we celebrate Native Species Weekend.",
-    "Booking Information": "For information on entry fees and times, please see the Dublin Zoo website www.dublinzoo.ie.",
+    "Description": "Talking about sharks",
+    "Booking Information": "No Booking",
     "Format": "Family Event",
     "Audience": "Families"
  

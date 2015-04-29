@@ -1,0 +1,11 @@
+  <widget id="com.example.hello" version="0.0.1">
+        <name>What's on at the National Museum of Ireland</name>
+        <description>
+          This is a app.
+        </description>
+        <author email="rodwardle@hotmail.com" href="http://phonegap.com">
+        Rodney Wardle
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>

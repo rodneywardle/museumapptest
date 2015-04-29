@@ -29,7 +29,20 @@ var info = [{
 
 
 
+},{
+     "Event": "Shark",
+    "Start Date": "23rd April 2015",
+    "Finish Date": "24th April 2015",
+    "Time": "See www.dublinzoo.ie",
+    "Location": "Natural History",
+    "Description": "Join us at our stand at Dublin Zoo as we celebrate Native Species Weekend.",
+    "Booking Information": "For information on entry fees and times, please see the Dublin Zoo website www.dublinzoo.ie.",
+    "Format": "Family Event",
+    "Audience": "Families"
+ 
+    
 }];
+
 
 
 $(document).on("pageinit", "#info-page", function () {

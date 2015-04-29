@@ -32,7 +32,6 @@ var info = [{
 }];
 
 
-console.log(getValues(js,'ID'));
 $(document).on("pageinit", "#info-page", function () {
 
 
